@@ -8,9 +8,9 @@ public class GeofenceRequestData {
 
     public GeoFenceRequest getGepRequestData() {
         GeoFenceRequest req = new GeoFenceRequest();
-        req.setLongitude(BigDecimal.valueOf(2222.3444));
-        req.setLatitude(BigDecimal.valueOf(10000.3434));
-        req.setRadius(BigDecimal.valueOf(12.334));
+        req.setLongitude(BigDecimal.valueOf(2222.34));
+        req.setLatitude(BigDecimal.valueOf(10000.34));
+        req.setRadius(BigDecimal.valueOf(12.33));
 
         return req;
     }

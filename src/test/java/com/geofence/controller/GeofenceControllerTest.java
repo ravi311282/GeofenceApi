@@ -56,9 +56,9 @@ class GeofenceControllerTest {
         mvc.perform(MockMvcRequestBuilders.get("/geofence/getGeoFence/v1/101")
                 .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.latitude").value(BigDecimal.valueOf(10000.3434)))
-                .andExpect(jsonPath("$.longitude").value(BigDecimal.valueOf(2222.3444)))
-                .andExpect(jsonPath("$.radius").value(BigDecimal.valueOf(12.334)));
+                .andExpect(jsonPath("$.latitude").value(BigDecimal.valueOf(10000.34)))
+                .andExpect(jsonPath("$.longitude").value(BigDecimal.valueOf(2222.34)))
+                .andExpect(jsonPath("$.radius").value(BigDecimal.valueOf(12.33)));
     }
 
     @Test
