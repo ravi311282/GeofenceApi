@@ -23,9 +23,9 @@
    URL: http://localhost:8888/geofence/createGeoFence/v1
    Request Body:
    {
-   "longitude": 25,
-   "latitude": 4444,
-   "radius": 166
+   "longitude": 25.00,
+   "latitude": 40.00,
+   "radius": 16.00
    }
 2. Get Geofence:
    Method: GET
@@ -38,9 +38,9 @@
    Request Body:
    {
    "id": 1,
-   "longitude": 111111,
-   "latitude": 878787,
-   "radius": 15555
+   "longitude": 11.00,
+   "latitude": 18.00,
+   "radius": 15.00
    }
 
 4. Delete Geofence:
